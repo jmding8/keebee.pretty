@@ -1,10 +1,10 @@
-(module PJ242MidMount (layer F.Cu) (tedit 5FFA8167)
+(module TRRS-PJ-242-MidMount (layer F.Cu) (tedit 5FFA8167)
   (descr PJ-320D-4A-1)
   (tags Connector)
   (fp_text reference J** (at 0 0) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
-  (fp_text value PJ242MidMount (at 0 0) (layer F.SilkS) hide
+  (fp_text value TRRS-PJ-242-MidMount (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
   (fp_line (start -6.15 2.65) (end -6.15 -2.65) (layer Edge.Cuts) (width 0.1))
