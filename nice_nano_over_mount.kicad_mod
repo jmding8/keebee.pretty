@@ -1,4 +1,4 @@
-(module nice_nano_over_mount (layer F.Cu) (tedit 60367D42)
+(module nice_nano_over_mount (layer F.Cu) (tedit 6036EF96)
   (fp_text reference U1 (at 0 1) (layer Dwgs.User) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -76,12 +76,6 @@
   (fp_line (start -12.55 3.81) (end -19.55 3.81) (layer Dwgs.User) (width 0.15))
   (fp_line (start -19.55 3.81) (end -19.55 -3.556) (layer Dwgs.User) (width 0.15))
   (fp_line (start -19.55 -3.556) (end -12.55 -3.556) (layer Dwgs.User) (width 0.15))
-  (fp_text user B- (at -17.78 5.461 90) (layer B.SilkS)
-    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
-  )
-  (fp_text user B+ (at -17.78 -5.778477 90) (layer B.SilkS)
-    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
-  )
   (pad 1 thru_hole roundrect (at -15.24 7.62) (size 1.2 1.7) (drill 1.05 (offset 0 0.32)) (layers *.Cu *.Mask) (roundrect_rratio 0.4))
   (pad 2 thru_hole roundrect (at -12.7 7.62) (size 1.2 1.7) (drill 1.05 (offset 0 0.32)) (layers *.Cu *.Mask) (roundrect_rratio 0.4))
   (pad 3 thru_hole roundrect (at -10.16 7.62) (size 1.2 1.7) (drill 1.05 (offset 0 0.32)) (layers *.Cu *.Mask) (roundrect_rratio 0.4))
@@ -102,8 +96,6 @@
   (pad 22 thru_hole roundrect (at -10.16 -7.62) (size 1.2 1.7) (drill 1.05 (offset 0 -0.32)) (layers *.Cu *.Mask) (roundrect_rratio 0.4))
   (pad 23 thru_hole roundrect (at -12.7 -7.62) (size 1.2 1.7) (drill 1.05 (offset 0 -0.32)) (layers *.Cu *.Mask) (roundrect_rratio 0.4))
   (pad 24 thru_hole roundrect (at -15.24 -7.62) (size 1.2 1.7) (drill 1.05 (offset 0 -0.32)) (layers *.Cu *.Mask) (roundrect_rratio 0.4))
-  (pad 34 thru_hole roundrect (at -17.78 -7.62) (size 1.2 1.7) (drill 1.05 (offset 0 -0.32)) (layers *.Cu *.Mask) (roundrect_rratio 0.4))
-  (pad 30 thru_hole roundrect (at -17.78 7.62) (size 1.2 1.7) (drill 1.05 (offset 0 0.32)) (layers *.Cu *.Mask) (roundrect_rratio 0.4))
   (model /Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/ArduinoProMicro.wrl
     (offset (xyz -13.96999979019165 -7.619999885559082 -5.841999912261963))
     (scale (xyz 0.395 0.395 0.395))
